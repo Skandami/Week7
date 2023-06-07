@@ -1,0 +1,152 @@
+.header{
+        display: grid;
+        height: 20vh;    
+         max-width: 1700px;
+        text-align: center;
+        font-size: xx-large;
+        background-color:lightgray;
+        font-weight: 900;
+        font-size: 2em;
+    
+    }
+   .container {
+      display: grid;
+      grid-template-columns:2% 3fr 1fr 2%;
+      grid-template-rows: 1fr 1fr;
+      height: 90vh;
+      max-width: 1700px;
+      grid-template-areas: main main main sidebar;
+      background-color: lightgray;
+      font-size: 1em;
+    }
+
+
+.main {
+    display: grid;
+    grid-area: 2/3/1/2;
+  grid-template-columns: 5% 20% 10% 20% 10%;
+  grid-template-rows: 20% 20% 20% 20% ;
+  grid-template-areas: item1 item2 item3 item3 item3 ;
+   width: auto;
+   text-align: center;
+    background-color:lightpink;
+    grid-gap: 40px;
+    
+}
+
+.sidebar { display: grid;
+    grid-column-start:3;
+    grid-column-end:4 ;
+     height:90vh;
+   width: auto;
+text-align: center;
+font-size: x-large;
+font-size: 1em;
+
+
+background-color:lightgreen;
+}
+
+.footer{ 
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 10% 1fr 1fr 1fr 1fr 10%;
+    grid-template-rows: 70% 20%;
+    grid-gap: 5%;
+    max-width: 1700px;
+    background-color:lightgray;
+    text-align: center;
+    height: 20vh;
+    font-weight: 700;
+
+    
+}
+
+    .footer1{
+ display: grid;
+grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+grid-row-end: 2;
+ background-color: bisque;
+ text-align:center;
+ font-size: 1em;
+
+    }
+    .footer2{
+ display: grid;
+grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+grid-row-end: 2;
+ background-color: bisque;
+ border-width: 5px;
+ border-color: black;
+text-align:center;
+font-size: 1em;}
+   .footer3{
+ display: grid;
+ background-color: bisque;
+ grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+grid-row-end: 2;
+ border-width: 5px;
+ border-color: black;
+text-align:center;
+font-size: 1em;}
+   .footer4
+   {
+ display: grid;
+ grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+grid-row-end: 2;
+ background-color: bisque;
+ border-width: 5px;
+ border-color: black;
+text-align:center;
+font-size: 1em;}
+
+.item1 {
+    display:grid;
+    grid-column-start: 2;
+    grid-column-end:4 ;
+    grid-row-start: 2;
+grid-row-end: 3;
+text-align: center;
+background-color:bisque;
+font-size: 1em;
+    }
+    .item2 {
+           display:grid;
+            grid-column-start: 4;
+    grid-column-end: 6;
+          grid-row-start: 2;
+grid-row-end: 3;
+     background-color: bisque;
+     font-size: 1em;
+    }
+    .item3{
+           display:grid;
+           grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+grid-row-end: 4;
+     background-color: bisque;
+     font-size: 1em;
+
+    }
+    #h {display: grid;
+        text align: center;
+    }
+  .main-title 
+  {display:grid;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: center
+    ;}
+
+        
+      
+        
